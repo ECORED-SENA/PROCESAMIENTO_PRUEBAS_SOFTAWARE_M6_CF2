@@ -64,7 +64,7 @@
     p.mb-4 Estas pruebas buscan abarcar todos los aspectos involucrados desde personal, técnicas, metodologías y conocimientos, pero cada organización puede complementar con acciones de mejora continua adicionales.
     Separador
 
-    .titulo-segundo.color-acento-contenido
+    #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1  Causas que deterioran la calidad en el software
 
     .row.justify-content-center.align-items-center.mb-5
@@ -169,7 +169,7 @@
 
     Separador
 
-    .titulo-segundo.color-acento-contenido
+    #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2  Modelo de desarrollo CMMI
 
     figure.mb-5
@@ -312,7 +312,7 @@
 
     Separador
 
-    .titulo-segundo.color-acento-contenido
+    #t_1_3.titulo-segundo.color-acento-contenido
       h2 1.3  Criterios del manejo de la confidencialidad
 
     .row.justify-content-center
@@ -835,12 +835,8 @@
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
   data: () => ({
     // variables de vue
     itemsApps1: [
