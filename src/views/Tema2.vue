@@ -431,7 +431,7 @@
                   h3.mb-1.text-white Anexo Ejemplo Diseño Plan de Pruebas
                   p.text-small.text-white Para un mejor entendimiento de cómo construir e implementar el plan de pruebas, ver el anexo que contiene un ejemplo práctico y cómo se relacionan los elementos requeridos.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_Ejemplo_Diseno_Plan_de_Pruebas_CF02_M6.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -475,7 +475,7 @@
                   h3.mb-1.text-white Redacción  Caso de Prueba
                   p.text-small.text-white Para aprender cómo redactar y construir un caso de prueba vea el siguiente anexo
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_Redaccion_Caso_de_Prueba_CF02_M6.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -516,7 +516,7 @@
                   h3.mb-1.text-white Redaccion Script De Prueba
                   p.text-small.text-white Para aprender cómo redactar y construir un script de prueba ver el siguiente anexo
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_Ejemplo_Redaccion_Script_De_Prueba_CF02_M6.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -959,7 +959,7 @@
                   h3.mb-1.text-white Anexo Plan de pruebas Proyectos Agiles
                   p.text-small.text-white Para aprender cómo realizar el plan de pruebas para proyectos ágiles vea el siguiente anexo donde se entrega un ejemplo:
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_Plandepruebas_Proyectos_Agiles_CF02_M6.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
