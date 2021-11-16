@@ -78,8 +78,43 @@
 
     p.mb-5 Además, para realizar el Aseguramiento de la Calidad de Software (SQA) se deben tener en cuenta diversos principios básicos como son:
 
-    LineaTiempoD.color-secundario.mb-5
-      p.text-small(numero="1" titulo="Praesent luctus") La calidad debe ser una constante a lo largo de todo el ciclo de vida del software. Por lo tanto, la calidad es una acción que se construye en la medida que el producto se va desarrollando, mas no cuando el producto está terminado, es por esta razón que todo el equipo o involucrados en el proceso deben también enfocarse en la calidad del producto.
+    SlyderF.mb-5(columnas="col-lg-4 col-xl-4 d-flex")
+      .tarjeta.color-acento-contenido-3.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/tema2-img51.svg' alt='AvatarTop')
+        p.text-center La calidad debe ser una constante a lo largo de todo el ciclo de vida del software. Por lo tanto, la calidad es una acción que se construye en la medida que el producto se va desarrollando, mas no cuando el producto está terminado, es por esta razón que todo el equipo o involucrados en el proceso deben también enfocarse en la calidad del producto.
+      .tarjeta.color-acento-contenido-4.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/tema2-img52.svg' alt='AvatarTop')
+        p.text-center La calidad de software solo se logra con la contribución de todas las personas involucradas, es decir que la calidad no es un proceso solo del equipo de aseguramiento de la calidad de software, sino más bien una actividad sincrónica entre todas las personas que colaboran para el desarrollo del producto.
+      .tarjeta.color-acento-contenido-3.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/tema2-img53.svg' alt='AvatarTop')
+        p.text-center La gestión y la planificación de la calidad debe ser eficaz y previamente definido y ejecutado; por lo tanto, se deben establecer procesos, estándares y una planeación claramente definida para poder asegurar la calidad del producto, donde contengan puntos de verificación y un proceso claro definido que incluya qué, quién y cuándo va a realizar la verificación o medición de la calidad.
+      .tarjeta.color-acento-contenido-4.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/tema2-img54.svg' alt='AvatarTop')
+        p.text-center Se deben dirigir los esfuerzos a prevención de defectos, es decir que una vez que un defecto es detectado además de corregirlo se deben tomar medidas necesarias para que no vuelva a ocurrir. Es en este punto donde se tiene en cuenta lo que es el análisis de las causas raíces, una vez que se encuentra un defecto se debe analizar por qué se ocasionó y cuál fue la causa que lo originó; por ejemplo, si es un problema en el proceso o si es un problema con las herramientas que se están utilizando o si fue una mala definición de los requerimientos, lo que constata que un error no solamente se soluciona o resuelve, sino que hay que indagar más en la causa raíz; porque de no hacerlo en el futuro se va a presentar el mismo problema.
+      .tarjeta.color-acento-contenido-3.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/tema2-img55.svg' alt='AvatarTop')
+        p.text-center Hay que reforzar los sistemas de detección y eliminación de defectos durante las etapas iniciales, lo que reafirma que eliminando los defectos en las etapas de requerimientos y diseño, estamos asegurando que esos defectos no van a ser replicados en las etapas subsiguientes, por ende es menos costoso detectar y corregir los defectos en las etapas iniciales, por ejemplo si se detecta un defecto en los requerimientos o en el diseño del software, lo más posible es que se tenga que corregir documentos o diagramas, pero si se espera a la etapa de desarrollo o cuando el software ya está en producción, tenemos que volver hacia atrás en todas las fases del ciclo de vida del desarrollo del software.
+      .tarjeta.color-acento-contenido-4.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/tema2-img56.svg' alt='AvatarTop')
+        p.text-center La calidad, al igual que la productividad, costos y los plazos de entrega están al mismo nivel, lo que quiere decir que el cumplimiento de los plazos de entrega y mantenerse dentro del presupuesto también son variables que se evalúan dentro del proceso de aseguramiento de calidad de software, pues de que sirve un producto sin defectos cuando ha costado mucho más de lo presupuestado y se ha entregado cuando ya no será útil.
+      .tarjeta.color-acento-contenido-3.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/tema2-img57.svg' alt='AvatarTop')
+        p.text-center Es esencial la participación de la dirección, que ha de propiciar la calidad, esto quiere decir que la dirección debe ser el primer interesado en asegurar la calidad y de proveer las directrices, herramientas y el apoyo necesarios para que se pueda lograr, por lo tanto si no hay apoyo de la dirección para implementar y ejecutar el proceso de aseguramiento de calidad del software, será difícil que se pueda llevar a cabo la calidad y por ende los productos no van a salir con la calidad requerida.
+
 
     p.mb-5 Es importante reconocer los factores que afectan o determinan la calidad del software, los cuales se definen a continuación:
 
