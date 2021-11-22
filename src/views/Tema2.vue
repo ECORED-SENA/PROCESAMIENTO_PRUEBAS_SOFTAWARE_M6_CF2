@@ -509,7 +509,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta.color-primario-degrade.p-3
+        .tarjeta.color-primario-degrade-2.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/tema2-img25.svg")
@@ -550,7 +550,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta.color-primario-degrade.p-3
+        .tarjeta.color-primario-degrade-2.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/tema2-img25.svg")
@@ -763,16 +763,6 @@
       | En el siguiente recurso se presentan los cuadrantes de las pruebas ágiles (Agile <i>Testing</i>):
 
     .row.justify-content-center.mb-5
-      .col-lg-7
-        vue-flip(height="226px" active-hover)
-          template(v-slot:front)
-            figure
-              img(src="@/assets/curso/tema2-img35.svg")
-          template(v-slot:back)
-            figure
-              img(src="@/assets/curso/tema2-img36.svg")
-
-    .row.justify-content-center.mb-5
       .col-lg-3.d-flex.mb-4.mb-lg-0
         .tarjeta.color-acento-contenido-3.py-2.px-4.no-flips
           p.mb-0.fs-7
@@ -809,16 +799,6 @@
             img(src="@/assets/curso/tema2-img38.svg")
 
     .row.justify-content-center.mb-5
-      .col-lg-7
-        vue-flip(height="226px" active-hover)
-          template(v-slot:front)
-            figure
-              img(src="@/assets/curso/tema2-img39.svg")
-          template(v-slot:back)
-            figure
-              img(src="@/assets/curso/tema2-img40.svg")
-
-    .row.justify-content-center.mb-0
       .col-lg-3.d-flex.mb-4.mb-lg-0
         .tarjeta.color-acento-contenido-4.py-2.px-4.no-flips
           p.mb-0.fs-7
@@ -859,6 +839,30 @@
         .tarjeta.color-acento-contenido-3.py-2.px-5.no-flips
           figure
             img(src="@/assets/curso/tema2-img42.svg")
+
+    .row.justify-content-center.mb-5
+      .col-lg-7
+        vue-flip(height="226px" active-hover)
+          template(v-slot:front)
+            figure
+              img(src="@/assets/curso/tema2-img35.svg")
+          template(v-slot:back)
+            figure
+              img(src="@/assets/curso/tema2-img36.svg")
+      .indicador__container
+        .indicador--click
+
+    .row.justify-content-center.mb-5
+      .col-lg-7
+        vue-flip(height="226px" active-hover)
+          template(v-slot:front)
+            figure
+              img(src="@/assets/curso/tema2-img39.svg")
+          template(v-slot:back)
+            figure
+              img(src="@/assets/curso/tema2-img40.svg")
+      .indicador__container
+        .indicador--click
 
     p.mb-5 Para empezar con las pruebas descritas en los cuadrantes, es necesario que haya en un ambiente de desarrollo con alguna funcionalidad instalada y desarrollada.
       br
@@ -995,7 +999,7 @@
 
     .row.justify-content-center.mb-0
       .col-lg-10
-        .tarjeta.color-primario-degrade.p-3
+        .tarjeta.color-primario-degrade-2.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/tema2-img25.svg")
