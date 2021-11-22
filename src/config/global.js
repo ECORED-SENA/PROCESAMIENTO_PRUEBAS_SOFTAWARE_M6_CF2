@@ -309,6 +309,39 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Gustavo Rodríguez',
+        cargo: 'Experto Temático',
+        centro: 'Regional Atlántico - Centro Colomboalemán',
+      },
+      {
+        nombre: 'Ervin Andrade',
+        cargo: 'Experto Temático',
+        centro:
+          'Regional Cauca - Centro de Teleinformática y Producción Industrial',
+      },
+      {
+        nombre: 'Peter Pinchao',
+        cargo: 'Experto Temático',
+        centro:
+          'Regional Cauca - Centro de Teleinformática y Producción Industrial',
+      },
+      {
+        nombre: 'Giovanna Escobar',
+        cargo: 'Diseñadora Instruccional',
+        centro: 'Regional Antioquia - Centro de Servicios de Salud',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Revisor Metodológico y Pedagógico',
+        centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro:
+          'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica.',
+      },
     ],
     desarrolloProducto: [
       {
@@ -323,28 +356,28 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Anllelo Andres Reina Montañez',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Sergio Omar Camacho Orduz',
+        cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: '',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [

@@ -20,12 +20,12 @@
 
     .row.justify-content-center.align-items-center.no-gutters.mb-5
       .col-lg-10
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1-img2.svg')})`}"
           )
           .bloque-texto-g__texto.p-5
-            p.mb-0 Es importante identificar cuáles son las causas que pueden llevar a tener un software de mala calidad, entre los cuales podemos indicar malas prácticas de desarrollo, no entender el negocio (no identificar cuáles son las finalidades de las funciones del producto software), falta de personal calificado para realizar y ejecutar el plan de pruebas, falta de cultura orientada a la calidad de software, entre otras.
+            p.mb-0 Es importante identificar cuáles son las causas que pueden llevar a tener un <i>software</i> de mala calidad, entre los cuales podemos indicar malas prácticas de desarrollo, no entender el negocio (no identificar cuáles son las finalidades de las funciones del producto <i>software</i>), falta de personal calificado para realizar y ejecutar el plan de pruebas, falta de cultura orientada a la calidad de <i>software</i>, entre otras.
 
     .row
       .col-lg-8
@@ -33,7 +33,7 @@
         ul.lista-ul--color.mb-4
           li
             i.fas.fa-code
-            | Analizar los requisitos funcionales del producto software.
+            p.mb-0 Analizar los requisitos funcionales del producto <i>software</i>.
           li
             i.fas.fa-code
             | Identificar en cada ciclo las nuevas funcionalidades a probar, o las que se deben volver probar (pruebas de regresión) dado que se ven afectadas por nuevas características.
@@ -65,22 +65,22 @@
     Separador
 
     #t_1_1.titulo-segundo.color-acento-contenido
-      h2 1.1  Causas que deterioran la calidad en el software
+      h2 1.1  Causas que deterioran la calidad en el <i>software</i>
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+      .col-lg-4.mb-5.mb-lg-0
         figure.mx-lg-n5
           img(src="@/assets/curso/tema1-img3.svg")
       .col-lg-8
-        p.mb-0 Las causas que afectan la calidad del software siempre están presentes, ya que son un atributo inevitable del proceso, con ello se tendrá el riesgo de tener un producto defectuoso con mala calidad.
+        p.mb-0 Las causas que afectan la calidad del <i>software</i> siempre están presentes, ya que son un atributo inevitable del proceso, con ello se tendrá el riesgo de tener un producto defectuoso con mala calidad.
           br
           br
-          | Esto es reflejo de las malas prácticas desde la concepción del producto software, las acciones que pueden influenciar una mala calidad en el software o el deterioro de este pueden ser diversas, pero básicamente se podría indicar que se enfocan en los procesos de ejecución del desarrollo del producto de software, pues la mala ejecución genera un efecto en cascada donde se ven afectados el plan de desarrollo, el plan de pruebas, los tiempos de ejecución y los recursos invertidos.
+          | Esto es reflejo de las malas prácticas desde la concepción del producto <i>software</i>, las acciones que pueden influenciar una mala calidad en el <i>software</i> o el deterioro de este pueden ser diversas, pero básicamente se podría indicar que se enfocan en los procesos de ejecución del desarrollo del producto de <i>software</i>, pues la mala ejecución genera un efecto en cascada donde se ven afectados el plan de desarrollo, el plan de pruebas, los tiempos de ejecución y los recursos invertidos.
           br
           br
-          | Algunas de las prácticas para evitar construir un producto software con mala calidad pueden ser:
+          | Algunas de las prácticas para evitar construir un producto <i>software</i> con mala calidad pueden ser:
 
-    h3.titulo-tercero.mb-5 Para evitar construir un software de mala calidad:
+    h3.titulo-tercero.mb-5 Para evitar construir un <i>software</i> de mala calidad:
 
     .row.justify-content-center.slider-special-container(
       :style="{'background-image': `url(${require('@/assets/curso/tema1-img4.svg')})`}"
@@ -101,7 +101,7 @@
                       ul.lista-ul--color
                         li
                           i.fas.fa-code
-                          | Constante comunicación,  participación de los clientes y usuarios en la construcción del producto software.
+                          | Constante comunicación,  participación de los clientes y usuarios en la construcción del producto <i>software</i>.
                         li
                           i.fas.fa-code
                           | Compromiso del equipo de desarrollo con la ejecución del proyecto.
@@ -175,7 +175,7 @@
     figure.mb-5
       img(src="@/assets/curso/tema1-img9.jpg")
 
-    p.mb-5 Es un modelo de capacidad y madurez que posee dos vistas estructurales que permiten tener un enfoque distinto dependiendo de quién esté realizando la implementación; se centra en elementos esenciales de las prácticas y los procesos, el cual permite realizar una evaluación de la madurez del proceso de desarrollo de software en las organizaciones.
+    p.mb-5 Es un modelo de capacidad y madurez que posee dos vistas estructurales que permiten tener un enfoque distinto dependiendo de quién esté realizando la implementación; se centra en elementos esenciales de las prácticas y los procesos, el cual permite realizar una evaluación de la madurez del proceso de desarrollo de <i>software</i> en las organizaciones.
       br
       br
       | Los objetivos de CMMI:
@@ -184,35 +184,35 @@
       .col-md-6.col-lg-4.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1-img10.svg' alt='AvatarTop')
-          .tarjeta.color-acento-contenido
+          .tarjeta.color-acento-contenido.tema-1.mt-3
             .p-4.text-center
               p.mb-0 Producción de calidad de productos o servicios.
       .col-md-6.col-lg-4.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1-img11.svg' alt='AvatarTop')
-          .tarjeta.color-acento-contenido
+          .tarjeta.color-acento-contenido.tema-1.mt-3
             .p-4.text-center
               p.mb-0 Creación de valor para los accionistas.
       .col-md-6.col-lg-4.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1-img12.svg' alt='AvatarTop')
-          .tarjeta.color-acento-contenido
+          .tarjeta.color-acento-contenido.tema-1.mt-3
             .p-4.text-center
               p.mb-0 Mejora continua en la satisfacción de los clientes.
       .col-md-6.col-lg-4.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1-img13.svg' alt='AvatarTop')
-          .tarjeta.color-acento-contenido
+          .tarjeta.color-acento-contenido.tema-1.mt-3
             .p-4.text-center
               p.mb-0 Aumento en la cuota de mercado
       .col-md-6.col-lg-4.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1-img14.svg' alt='AvatarTop')
-          .tarjeta.color-acento-contenido
+          .tarjeta.color-acento-contenido.tema-1.mt-3
             .p-4.text-center
               p.mb-0 Obtener reconocimiento de excelencia en la industria
 
-    p.mb-5 El modelo estructurado por nivel de madurez es un nivel de madurez bien definido, que entrega las bases necesarias para evolucionar hacia un proceso de software maduro, proporcionando en cada nivel aspecto de mejora continua que se clasifican en:
+    p.mb-5 El modelo estructurado por nivel de madurez es un nivel de madurez bien definido, que entrega las bases necesarias para evolucionar hacia un proceso de <i>software</i> maduro, proporcionando en cada nivel aspecto de mejora continua que se clasifican en:
 
     .row.justify-content-center.mb-5
       .col-lg-7
@@ -244,19 +244,19 @@
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--color-secundario p-5").mb-5
       .row(number="1" titulo="Nivel de madurez inicial")
         .col-12
-          p.mb-0 los procesos suelen ser caóticos, en el cual se gestionan y crean productos o servicios que no funcionan, excediendo el presupuesto y el calendario de entregas. Las organizaciones en este nivel abandonan los proyectos ante una crisis y no tienen la capacidad de replicar los éxitos y buenas prácticas de procesos previos.
+          p.mb-0 Los procesos suelen ser caóticos, en el cual se gestionan y crean productos o servicios que no funcionan, excediendo el presupuesto y el calendario de entregas. Las organizaciones en este nivel abandonan los proyectos ante una crisis y no tienen la capacidad de replicar los éxitos y buenas prácticas de procesos previos.
       .row(number="2" titulo="Nivel de madurez administrativo")
         .col-12
-          p.mb-0 en este nivel los objetivos generales y específicos han sido alcanzados, los proyectos han asegurado que los requisitos sean gestionados y los procesos son planificados, ejecutados de manera controlada, conforme a los planes documentados y los productos o servicios satisfacen las necesidades del cliente en los requisitos especificados, también los objetivos y normas.
+          p.mb-0 En este nivel los objetivos generales y específicos han sido alcanzados, los proyectos han asegurado que los requisitos sean gestionados y los procesos son planificados, ejecutados de manera controlada, conforme a los planes documentados y los productos o servicios satisfacen las necesidades del cliente en los requisitos especificados, también los objetivos y normas.
       .row(number="3" titulo="Nivel de madurez definida")
         .col-12
-          p.mb-0 en este nivel la organización ha logrado alcanzar todos los objetivos específicos de las áreas asignadas en los niveles 2 y 3. Los procesos están bien caracterizados, entendidos y donde se definen normas, procedimientos, herramientas y métodos para su aplicación.
+          p.mb-0 En este nivel la organización ha logrado alcanzar todos los objetivos específicos de las áreas asignadas en los niveles 2 y 3. Los procesos están bien caracterizados, entendidos y donde se definen normas, procedimientos, herramientas y métodos para su aplicación.
       .row(number="4" titulo="Nivel de madurez administrativo cuantitativamente")
         .col-12
-          p.mb-0 en este nivel se seleccionan los procesos que aportan significativamente al rendimiento del proceso en general, concluyendo subprocesos que se controlan por medio de métricas, reportes y estadísticas que permiten medir la capacidad, permitiendo identificar casos que generen problemas para ser corregidos y no se repitan en el futuro, también para tomar decisiones de negocio que permitan el crecimiento de la organización.
+          p.mb-0 En este nivel se seleccionan los procesos que aportan significativamente al rendimiento del proceso en general, concluyendo subprocesos que se controlan por medio de métricas, reportes y estadísticas que permiten medir la capacidad, permitiendo identificar casos que generen problemas para ser corregidos y no se repitan en el futuro, también para tomar decisiones de negocio que permitan el crecimiento de la organización.
       .row(number="5" titulo="Nivel de madurez optimización")
         .col-12
-          p.mb-0 este nivel está centrado en la mejora continua, la optimización y el rendimiento de los procesos de la organización, es el nivel ideal.
+          p.mb-0 Este nivel está centrado en la mejora continua, la optimización y el rendimiento de los procesos de la organización, es el nivel ideal.
 
     p.mb-5 El modelo está articulado con los siguientes componentes: objetivos, prácticas y subprácticas, cuyas definiciones se encuentran en las siguientes tarjetas:
 
@@ -266,24 +266,24 @@
           .col-lg-4.mb-4.mb-lg-0
             .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
               .indicador--hover(v-if="indicadorTarjetaSlide")
-              .tarjeta-slide__contenedor
-                .tarjeta-slide__contenido.p-4.p-xl-5
+              .tarjeta-slide__contenedor.py-lg-0.py-5
+                .tarjeta-slide__contenido.p-5.p-xl-5
                   h3 Objetivos
                   p.mb-5 Son elementos requeridos que se deben evaluar satisfactoriamente. Estos pueden ser específicos, por área de proceso y genéricos relacionados con la institucionalización.
                 .tarjeta-slide__img.p-5(:style="{'background-image': `url(${require('@/assets/curso/tema1-img16.svg')})`}")
           .col-lg-4.mb-4.mb-lg-0
             .tarjeta.tarjeta-slide.abajo.color-primario(@mouseover="indicadorTarjetaSlide = false")
               .indicador--hover(v-if="indicadorTarjetaSlide")
-              .tarjeta-slide__contenedor
-                .tarjeta-slide__contenido.p-4.p-xl-5
+              .tarjeta-slide__contenedor.py-lg-0.py-5
+                .tarjeta-slide__contenido.p-5.p-xl-5
                   h3 Prácticas
                   p.mb-5 Son esperadas, dado que si se alcanzaron los objetivos se espera también contar con los procesos, ya sean específicos o genéricos.
                 .tarjeta-slide__img.p-5(:style="{'background-image': `url(${require('@/assets/curso/tema1-img17.svg')})`}")
           .col-lg-4.mb-4.mb-lg-0
             .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
               .indicador--hover(v-if="indicadorTarjetaSlide")
-              .tarjeta-slide__contenedor
-                .tarjeta-slide__contenido.p-4.p-xl-5
+              .tarjeta-slide__contenedor.py-lg-0.py-5
+                .tarjeta-slide__contenido.p-5.p-xl-5
                   h3 Subprácticas
                   p.mb-5 Son componentes informativos que ayudan a la interpretación e implementación de las prácticas, constituidas por los activos de trabajo y distintas disciplinas.
                 .tarjeta-slide__img.p-5(:style="{'background-image': `url(${require('@/assets/curso/tema1-img18.svg')})`}")
@@ -293,31 +293,32 @@
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--color-secundario")
       .row(titulo="Nivel de capacidad 0: incompleta: ")
         .col
-          p.mb-3 indica que un proceso se realiza parcialmente o no se realiza, dado que uno o más objetivos no se cumplen y no presenta objetivos genéricos
+          p.mb-3 Indica que un proceso se realiza parcialmente o no se realiza, dado que uno o más objetivos no se cumplen y no presenta objetivos genéricos
       .row(titulo="Nivel de capacidad 1: realizar:")
         .col
-          p.mb-3 en este nivel se espera que se realicen todas las actividades específicas y genéricas del proceso, dado el nivel es posible que el rendimiento no sea estable y se llegue a no cumplir con objetivos como calidad, costo, tiempos, pero se puede ejecutar. Este solo es el inicio, lo cual significa que se hace algo, pero no se puede demostrar plenamente cómo funciona.
+          p.mb-3 En este nivel se espera que se realicen todas las actividades específicas y genéricas del proceso, dado el nivel es posible que el rendimiento no sea estable y se llegue a no cumplir con objetivos como calidad, costo, tiempos, pero se puede ejecutar. Este solo es el inicio, lo cual significa que se hace algo, pero no se puede demostrar plenamente cómo funciona.
       .row(titulo="Nivel de capacidad 2: administración:")
         .col
-          p.mb-3 se denominan procesos administrados, ya que se puede contar con una planeación, una trazabilidad y un control en los proyectos individuales o grupales.
+          p.mb-3 Se denominan procesos administrados, ya que se puede contar con una planeación, una trazabilidad y un control en los proyectos individuales o grupales.
       .row(titulo="Nivel de capacidad 3: definir:")
         .col
-          p.mb-3 son procesos que están diseñados a partir de un conjunto de procesos estándar en la organización, con productos de trabajo, modelos, medidas y otras características relacionadas a herramientas que faciliten la identificación y ejecución del proceso.
+          p.mb-3 Son procesos que están diseñados a partir de un conjunto de procesos estándar en la organización, con productos de trabajo, modelos, medidas y otras características relacionadas a herramientas que faciliten la identificación y ejecución del proceso.
       .row(titulo="Nivel de capacidad 4: administrada cuantitativamente:")
         .col
-          p.mb-3 en este nivel se realiza un seguimiento al proceso por medio de métricas estadísticas y otras técnicas cuantitativas, para poder establecer el rendimiento de los procesos, con esto se realiza una gestión en el proceso. En este nivel los atributos de calidad y rendimiento se entienden como términos estadísticos usados para la administración del producto a lo largo de la vida del proceso.
+          p.mb-3 En este nivel se realiza un seguimiento al proceso por medio de métricas estadísticas y otras técnicas cuantitativas, para poder establecer el rendimiento de los procesos, con esto se realiza una gestión en el proceso. En este nivel los atributos de calidad y rendimiento se entienden como términos estadísticos usados para la administración del producto a lo largo de la vida del proceso.
       .row(titulo="Nivel de capacidad 5: optimización:")
         .col
-          p.mb-3 este nivel se centra en la mejora continua del rendimiento de los procesos por medio de mejoras continuas que buscan la innovación.
+          p.mb-3 Este nivel se centra en la mejora continua del rendimiento de los procesos por medio de mejoras continuas que buscan la innovación.
 
     Separador
 
     #t_1_3.titulo-segundo.color-acento-contenido
       h2 1.3  Criterios del manejo de la confidencialidad
 
-    .row.justify-content-center
-      .col-lg-7
-        p.mb-0 Cuando se habla de confidencialidad se refiere a los principios de seguridad de la información y en ese caso es importante tener en cuenta las siglas CIA que hacen referencia a: Confidencialidad, Integridad y Disponibilidad; sin estos principios fundamentales no podemos hacer referencia a que la información está segura, si uno de estos principios falla, existe la posibilidad de materializarse algún riesgo de seguridad de la información. La ISO/IEC 27001, es un estándar que especifica los requisitos necesarios para establecer, desarrollar, mantener y mejorar el sistema de gestión de seguridad la información (SGSI) y en esta norma se definen los controles necesarios para garantizar estos principios.
+    .row.justify-content-center.mb-5
+      .col-lg-7.mb-5.mb-lg-0
+
+        p.mb-0 Cuando se habla de confidencialidad se refiere a los principios de seguridad de la información y en ese caso es importante tener en cuenta las siglas CIA que hacen referencia a: confidencialidad, integridad y disponibilidad; sin estos principios fundamentales no podemos hacer referencia a que la información está segura, si uno de estos principios falla, existe la posibilidad de materializarse algún riesgo de seguridad de la información. La ISO/IEC 27001, es un estándar que especifica los requisitos necesarios para establecer, desarrollar, mantener y mejorar el sistema de gestión de seguridad la información (SGSI) y en esta norma se definen los controles necesarios para garantizar estos principios.
       .col-lg-5
         figure
           img(src="@/assets/curso/tema1-img19.svg")
@@ -361,7 +362,7 @@
               br
               | Es de suma importancia dado que de nada sirve que la información esté segura e íntegra si no podemos tener acceso a ella. La información debe estar disponible en cualquier momento que el usuario requiera accederla.
 
-    p.mb-5 La seguridad de la información contempla la protección de la infraestructura, los dispositivos, las herramientas, la integridad física y moral de los usuarios, por lo cual se han optado por mecanismos como la encriptación, creación de firewalls, simuladores de ataques.
+    p.mb-5 La seguridad de la información contempla la protección de la infraestructura, los dispositivos, las herramientas, la integridad física y moral de los usuarios, por lo cual se han optado por mecanismos como la encriptación, creación de  <i>firewalls</i>, simuladores de ataques.
       br
       br
       | En la actualidad hay empresas que se encargan de gestionar la seguridad de otras empresas, las cuales pueden proveer servicios en las siguientes áreas:
@@ -373,32 +374,32 @@
             .tarjeta-avatar-b
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema1-img22.svg' alt='AvatarTop')
-              .tarjeta.color-acento-contenido.row.align-items-center
+              .tarjeta.color-acento-contenido.tema-1.row.align-items-center
                 .p-4
                   p.mb-0
-                    strong Los servicios gestionados de seguridad,
+                    strong Los servicios gestionados de seguridad
                     br
-                    | desde los que se administran y monitorean los sistemas de seguridad las 24 horas del día.
+                    | Desde los que se administran y monitorean los sistemas de seguridad las 24 horas del día.
           li.no-flex
             .tarjeta-avatar-b
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema1-img23.svg' alt='AvatarTop')
-              .tarjeta.color-acento-contenido.row.align-items-center
+              .tarjeta.color-acento-contenido.tema-1.row.align-items-center
                 .p-4
                   p.mb-0
-                    strong Los servicios profesionales,
+                    strong Los servicios profesionales
                     br
-                    | que apoyan la consultoría de análisis de vulnerabilidades, las pruebas de penetración, la implantación de normativas y estándares.
+                    | Que apoyan la consultoría de análisis de vulnerabilidades, las pruebas de penetración, la implantación de normativas y estándares.
           li.no-flex
             .tarjeta-avatar-b
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema1-img24.svg' alt='AvatarTop')
-              .tarjeta.color-acento-contenido.row.align-items-center
+              .tarjeta.color-acento-contenido.tema-1.row.align-items-center
                 .p-4
                   p.mb-0
-                    strong El área de tecnología e ingeniería,
+                    strong El área de tecnología e ingeniería
                     br
-                    | para diseñar, integrar y soportar soluciones tecnológicas de seguridad, pues los clientes no siempre tienen la infraestructura necesaria que ellos le proporcionarán.
+                    | Para diseñar, integrar y soportar soluciones tecnológicas de seguridad, pues los clientes no siempre tienen la infraestructura necesaria que ellos le proporcionarán.
 
     Separador
 
@@ -406,17 +407,16 @@
       h2 1.4  Herramientas tecnológicas para pruebas
 
     .row.justify-content-center.mb-5
-      .col-lg-5
+      .col-lg-5.mb-5.mb-lg-0
         figure
           img(src="@/assets/curso/tema1-img25.svg")
       .col-lg-7
-        p.mb-0 Cuando se habla de herramientas para la aplicación de pruebas de software, por lo general se piensa en automatización, lo cual es un gran elemento potenciador de productividad, pero no siempre se aplica en todos los contextos, por lo que es importante reconocer la viabilidad de aplicar pruebas automatizadas dependiendo del campo y contexto a aplicar.
+        .cajon.color-primario.p-4.mb-4
+          p.mb-0 Cuando se habla de herramientas para la aplicación de pruebas de <i>software</i>, por lo general se piensa en automatización, lo cual es un gran elemento potenciador de productividad, pero no siempre se aplica en todos los contextos, por lo que es importante reconocer la viabilidad de aplicar pruebas automatizadas dependiendo del campo y contexto a aplicar.
+        p.mb-0 Se debe iniciar con la identificación de contextos del proyecto, además es necesario para un <i>tester</i> reconocer qué es automatizar una prueba de <i>software</i> y tener total conciencia de cuáles escenarios no son automatizables. Dentro de este proceso es importante que se identifique cómo se puede optimizar el proceso de automatización, trabajo en equipo con los compañeros de proyecto y activos para probar las herramientas de automatización.
           br
           br
-          | Se debe iniciar con la identificación de contextos del proyecto, además es necesario para un tester reconocer qué es automatizar una prueba de software y tener total conciencia de cuáles escenarios no son automatizables. Dentro de este proceso es importante que se identifique cómo se puede optimizar el proceso de automatización, trabajo en equipo con los compañeros de proyecto y activos para probar las herramientas de automatización.
-          br
-          br
-          | A continuación, se presentan aspectos a considerar al momento de automatizar las pruebas de software:
+          | A continuación, se presentan aspectos a considerar al momento de automatizar las pruebas de <i>software</i>:
 
     .row.justify-content-center.mb-3
       .col-lg-9
@@ -426,16 +426,16 @@
               img(src='@/assets/curso/tema1-img26.svg', alt='Texto que describa la imagen')
 
           .tarjeta.tarjeta--color-secundario.p-5(x="58.5%" y="24.5%" )
-            .h5.mb-2 ¿Por qué automatizar pruebas de software?
-            p.mb-0 Desde el inicio la automatización se supone la reducción del esfuerzo humano en actividades repetitivas que pueden ser llevadas a cabo por una máquina, por lo que con la automatización de pruebas de software podemos intuir que se llega al objetivo de simplificar un trabajo dispendioso, complejo, repetitivo, cambiando la perspectiva a una respuesta más efectiva y productiva. El objetivo es ahorrar capacidad, energía, tiempos y costos, al igual que liberar personal del equipo para que esté disponible para actividades prioritarias.
+            .h5.mb-2 ¿Por qué automatizar pruebas de <i>software</i>?
+            p.mb-0 Desde el inicio la automatización se supone la reducción del esfuerzo humano en actividades repetitivas que pueden ser llevadas a cabo por una máquina, por lo que con la automatización de pruebas de <i>software</i> podemos intuir que se llega al objetivo de simplificar un trabajo dispendioso, complejo, repetitivo, cambiando la perspectiva a una respuesta más efectiva y productiva. El objetivo es ahorrar capacidad, energía, tiempos y costos, al igual que liberar personal del equipo para que esté disponible para actividades prioritarias.
 
           .tarjeta.tarjeta--color-secundario.p-5(x="58.5%" y="38.5%")
             .h5.mb-2 Automatización de esfuerzos manuales
-            p.mb-0 Dentro de las pruebas de software hay esfuerzos que son repetitivos y que se pueden abordar por medio de procesos automatizados, es aquí donde los testers entran a traducir las acciones manuales a una serie de comandos que emulan la actividad humana, incluso estos pueden llegar a un nivel que la capacidad humana no sería capaz de replicar como cantidad de ejecuciones o carga a un proceso recurrente.
+            p.mb-0 Dentro de las pruebas de <i>software</i> hay esfuerzos que son repetitivos y que se pueden abordar por medio de procesos automatizados, es aquí donde los <i>testers</i> entran a traducir las acciones manuales a una serie de comandos que emulan la actividad humana, incluso estos pueden llegar a un nivel que la capacidad humana no sería capaz de replicar como cantidad de ejecuciones o carga a un proceso recurrente.
 
           .tarjeta.tarjeta--color-secundario.p-5(x="58.5%" y="50.5%")
             .h5.mb-2 ¿Cuándo algo se considera automatizable?
-            p.mb-0 Es importante indicar que un tester tendrá el criterio para determinar cuándo un proceso se automatizará, siempre y cuando domine el arte del testeo de forma manual. El conocimiento de los procesos manuales son la base para poder realizar una automatización adecuada y exitosa.
+            p.mb-0 Es importante indicar que un <i>tester</i> tendrá el criterio para determinar cuándo un proceso se automatizará, siempre y cuando domine el arte del testeo de forma manual. El conocimiento de los procesos manuales son la base para poder realizar una automatización adecuada y exitosa.
             br
             | Cabe resaltar que las pruebas manuales no pueden ser totalmente reemplazables, básicamente no pueden simplemente desaparecer.
 
@@ -455,7 +455,7 @@
             p.mb-0 <strong>1</strong>. Todo se puede automatizar.
 
           .tarjeta.color-acento-contenido.p-4(x="75.5%" y="9.5%")
-            p.mb-0 <strong>2</strong>. El software automatizado presenta mejores estándares de calidad que uno que no lo esté.
+            p.mb-0 <strong>2</strong>. El <i>software</i> automatizado presenta mejores estándares de calidad que uno que no lo esté.
 
           .tarjeta.color-acento-contenido.p-4(x="75.5%" y="34.5%")
             p.mb-0 <strong>3</strong>. Son mejores las pruebas automatizadas que las manuales.
@@ -469,7 +469,7 @@
         .bloque-texto-d.color-secundario.p-4.mb-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3.text-regular Ahora bien, se expresan los siete principios que ayudan a comprender el objetivo del testing, independientemente de que sean pruebas manuales o automatizadas,
+            h3.text-regular Ahora bien, se expresan los siete principios que ayudan a comprender el objetivo del <i>testing</i>, independientemente de que sean pruebas manuales o automatizadas,
             i.fas.fa-quote-right
           .bloque-texto-d__autor
             .h6.mb-0 según Rodríguez (2020):
@@ -498,7 +498,7 @@
       li
         .lista-ol--cuadro__vineta
           span.texto-oscuro.fw-bold 6
-        | El testing de software es un proceso intelectual desafiante.
+        p.mb-0 El <i>testing</i> de <i>software</i> es un proceso intelectual desafiante.
       li
         .lista-ol--cuadro__vineta
           span.texto-oscuro.fw-bold 7
@@ -506,14 +506,14 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1-img28.svg')})`}"
           )
           .bloque-texto-g__texto.p-5
-            p.mb-0 Al iniciar el proceso de automatización se debe tener en cuenta el costo de mantener los scripts, por esto es ideal garantizar que desde las pruebas unitarias se minimice el riesgo de errores en el código, siendo requerido contar una retroalimentación inmediata y continua a las diferentes capas, por esto las pruebas manuales y exploratorias son más valiosas a nivel de integración e interfaz de usuario, centrando esfuerzos en las pruebas que no son posibles de automatizar.
+            p.mb-0 Al iniciar el proceso de automatización se debe tener en cuenta el costo de mantener los <i>scripts</i>, por esto es ideal garantizar que desde las pruebas unitarias se minimice el riesgo de errores en el código, siendo requerido contar una retroalimentación inmediata y continua a las diferentes capas, por esto las pruebas manuales y exploratorias son más valiosas a nivel de integración e interfaz de usuario, centrando esfuerzos en las pruebas que no son posibles de automatizar.
 
-    p.mb-5 En la siguiente figura, se puede observar dos modelos de aplicación de pruebas de software, a la izquierda un modelo que no está optimizado y donde los esfuerzos se reflejan en la capa superior, sin retroalimentación temprana; mientras que el de la derecha desde el inicio del desarrollo cada elemento como una unidad es verificado minimizando y optimizando los procesos de prueba de cara a un ambiente productivo:
+    p.mb-5 En la siguiente figura, se puede observar dos modelos de aplicación de pruebas de <i>software</i>, a la izquierda un modelo que no está optimizado y donde los esfuerzos se reflejan en la capa superior, sin retroalimentación temprana; mientras que el de la derecha desde el inicio del desarrollo cada elemento como una unidad es verificado minimizando y optimizando los procesos de prueba de cara a un ambiente productivo:
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -526,7 +526,7 @@
             img(src="@/assets/curso/tema1-img29.jpg")
             figcaption Nota.Tomada de Rodríguez (2020).
 
-    p.mb-5 Aunque las pruebas manuales y las automatizadas son diferentes no son excluyentes entre ellas, al contrario, se consideran acciones complementarias que buscan mejorar la calidad del producto software.
+    p.mb-5 Aunque las pruebas manuales y las automatizadas son diferentes no son excluyentes entre ellas, al contrario, se consideran acciones complementarias que buscan mejorar la calidad del producto <i>software</i>.
       br
       br
       | Como se ha indicado previamente desde el contexto, no todas las pruebas son automatizables, por lo que se detallan los casos en los cuales se pueden automatizar:
@@ -570,7 +570,7 @@
                       h4.titulo-cuarto Pruebas complejas y/o que consumen mucho riesgo
                       p.mb-0 Hace referencia a casos de  que son muy complejos de ejecutar manualmente y, al llevarlos a un script, será más fácil ejecutarlos de manera automatizada.
                         br
-                        | Por ejemplo, si se trata de un formulario con muchos datos y el tester debe llenar muchas veces la información, estará propenso a equivocaciones.
+                        | Por ejemplo, si se trata de un formulario con muchos datos y el <i>tester</i> debe llenar muchas veces la información, estará propenso a equivocaciones.
                     .col-lg-6.px-5
                       figure
                         img(src='@/assets/curso/tema1-img32.svg', alt='Texto que describa la imagen')
@@ -580,7 +580,7 @@
                   .row.justify-content-center.p-5
                     .col-lg-6.px-5
                       h4.titulo-cuarto Casos de pruebas repetitivos
-                      p.mb-0 El probar diferentes escenarios de prueba suele ser un proceso tedioso, por lo cual programar scripts con la información de cada escenario para el mismo flujo proporciona valor al optimizar el proceso y minimizar el tiempo y costos del proceso de prueba.
+                      p.mb-0 El probar diferentes escenarios de prueba suele ser un proceso tedioso, por lo cual programar <i>scripts</i> con la información de cada escenario para el mismo flujo proporciona valor al optimizar el proceso y minimizar el tiempo y costos del proceso de prueba.
                     .col-lg-6.px-5
                       figure
                         img(src='@/assets/curso/tema1-img33.svg', alt='Texto que describa la imagen')
@@ -604,7 +604,7 @@
             .tarjeta-flip__img(:style="{'background-image': `url(${item.img})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
               h4 {{ item.title }}
-              p.fs-7 {{ item.description }}
+              p.fs-7(v-html="item.description")
 
     p.mb-5 También existen herramientas de gestión de pruebas, a continuación, se presentan algunas de estas:
 
@@ -616,7 +616,7 @@
             .tarjeta-flip__img(:style="{'background-image': `url(${item.img})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
               h4 {{ item.title }}
-              p.fs-7 {{ item.description }}
+              p.fs-7(v-html="item.description")
 
     p.mb-5 Otro tipo de herramientas importantes son las de trazabilidad de incidencias, aquí se presentan algunas:
 
@@ -628,7 +628,7 @@
             .tarjeta-flip__img(:style="{'background-image': `url(${item.img})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
               h4 {{ item.title }}
-              p.fs-7 {{ item.description }}
+              p.fs-7(v-html="item.description")
 
     p.mb-5 Para finalizar, se listan algunas herramientas de prueba entre diferentes navegadores:
 
@@ -640,7 +640,7 @@
             .tarjeta-flip__img(:style="{'background-image': `url(${item.img})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
               h4 {{ item.title }}
-              p.fs-7 {{ item.description }}
+              p.fs-7(v-html="item.description")
 
     Separador
 
@@ -681,7 +681,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
-        p.mb-0 Es denominado modelo en V dado que compara cada fase de desarrollo con las fases de control de calidad, el brazo izquierdo contiene las tareas de diseño y desarrollo del sistema, el derecho las medidas de control de calidad definidas para cada fase, en medio de los dos se puede encontrar la implementación de producto, es decir el desarrollo y código fuente del producto software.
+        p.mb-0 Es denominado modelo en V dado que compara cada fase de desarrollo con las fases de control de calidad, el brazo izquierdo contiene las tareas de diseño y desarrollo del sistema, el derecho las medidas de control de calidad definidas para cada fase, en medio de los dos se puede encontrar la implementación de producto, es decir el desarrollo y código fuente del producto <i>software</i>.
           br
           br
           | En la siguiente figura se detalla el modelo único de evaluación el cual se orienta a los productos de trabajo en lugar a los procesos que lo producen, además se pueden observar las fases mencionadas:
@@ -724,7 +724,7 @@
                   .row.justify-content-center.p-5
                     .col-lg-6.px-5
                       h4.titulo-cuarto {{ itemsTabs1[0].title }}
-                      p.mb-0 {{ itemsTabs1[0].description }}
+                      p.mb-0(v-html="itemsTabs1[0].description")
                     .col-lg-6.px-5
                       figure
                         img(:src='itemsTabs1[0].img', alt='Texto que describa la imagen')
@@ -751,10 +751,7 @@
       h2 1.7 <i>Continuous Integration y Continuous Delivery</i>
 
     .cajon-b.color-acento-contenido.p-3
-      p.mb-0 En la fase de pruebas se lleva a cabo la ejecución de los diferentes planes de prueba definidos en la planeación de las fases anteriores, donde es necesario conseguir el objetivo y documentar la ejecución de cada prueba, en la medida de lo posible minimizando o evitando en su totalidad acarrear con errores que debieron solucionarse en iteraciones anteriores o en fases del desarrollo temprano.
-        br
-        br
-        | En esta fase se deben ejecutar las siguientes acciones y generar estos entregables:
+      p.mb-0 La integración continua o CI es el proceso de automatizar la integración de los cambios en las versiones de código y ajustes en el producto <i>software</i> de diferentes fuentes en un único proyecto. Esta es una de las prácticas fundamentales en DevOps, lo que permite integrar o fusionar con frecuencia los cambios de desarrollo en un repositorio central donde luego se realizan las compilaciones y las pruebas.
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -770,12 +767,12 @@
         figure
           img(src="@/assets/curso/tema1-img64.svg")
       .col-lg-7
-        p.mb-0.box-with-degrade-invert.color-acento-contenido.p-5 Esta forma de trabajo soluciona problemas de coordinación manual entre los desarrolladores, el equipo de operación y el resto del equipo encargado del correcto funcionamiento del producto software.
+        p.mb-0.box-with-degrade-invert.color-acento-contenido.p-5 Esta forma de trabajo soluciona problemas de coordinación manual entre los desarrolladores, el equipo de operación y el resto del equipo encargado del correcto funcionamiento del producto <i>software</i>.
           br
           br
           | Este tipo de trabajo manual representa una tarea de sincronización compleja y a menudo confusa, que añade procesos y costos innecesarios a la ejecución del proyecto. Al no contar con procesos CI, las liberaciones son más inestables y lentas, dado que los riesgos crecen considerablemente a medida que aumentan las nuevas funcionalidades o el equipo de desarrollo que intervienen en él, también se puede concluir que sin la integración continua y al limitarse la comunicación el proceso de desarrollo se vuelve engorroso y se cae en el error de trabajar en una caja negra, donde solo llegan solicitudes de nuevas funcionalidades pero no se sabe en realidad con que se cuenta o con que no.
 
-    p.mb-5 Continuous Delivery (entrega continua en español) es un concepto relativamente nuevo que cada vez es adoptado con más frecuencia en los procesos de desarrollo. Estas prácticas incluyen el desarrollo, control de calidad y entrega, dado que estas no son definitivas y antes al contrario se repiten de formas automatizadas, una y otra vez durante el proceso de desarrollo. El beneficio de este es que el producto se puede someter regularmente a procesos de calidad en cada una de sus fases de desarrollo, permitiendo realizar entregas, sin importar que el equipo de desarrollo siga trabajando en funcionalidades del producto final. Otro punto importante es que hay una realimentación o feedback constante que proviene del pipeline, lo que permite tomar acción inmediata ante una mejora.
+    p.mb-5 <i>Continuous Delivery</i> (entrega continua en español) es un concepto relativamente nuevo que cada vez es adoptado con más frecuencia en los procesos de desarrollo. Estas prácticas incluyen el desarrollo, control de calidad y entrega, dado que estas no son definitivas y antes al contrario se repiten de formas automatizadas, una y otra vez durante el proceso de desarrollo. El beneficio de este es que el producto se puede someter regularmente a procesos de calidad en cada una de sus fases de desarrollo, permitiendo realizar entregas, sin importar que el equipo de desarrollo siga trabajando en funcionalidades del producto final. Otro punto importante es que hay una realimentación o <i>feedback</i> constante que proviene del <i>pipeline</i>, lo que permite tomar acción inmediata ante una mejora.
 
     Separador
 
@@ -785,7 +782,7 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-8
         .cajon-b.color-acento-contenido.p-3
-          p.mb-0 La capacidad de encontrar y solucionar problemas rápidamente en un producto software pertenecen a las habilidades más importantes en los equipos de desarrollo o encontrar un problema en un ambiente productivo suele ser realmente desafiante, hay equipos completos dedicados al mantenimiento del sistema los cuales se encargan de corregir errores en los productos software. También hay personal que están disponibles de guardia de tal manera que si se llega a caer el sistema tienen la responsabilidad de que rápidamente este vuelva a estar en línea lo antes posible.
+          p.mb-0 La capacidad de encontrar y solucionar problemas rápidamente en un producto <i>software</i> pertenecen a las habilidades más importantes en los equipos de desarrollo o encontrar un problema en un ambiente productivo suele ser realmente desafiante, hay equipos completos dedicados al mantenimiento del sistema los cuales se encargan de corregir errores en los productos <i>software</i>. También hay personal que están disponibles de guardia de tal manera que si se llega a caer el sistema tienen la responsabilidad de que rápidamente este vuelva a estar en línea lo antes posible.
             br
             br
             | La resolución de problemas en el ámbito de depuración de código tiene como objetivo delinear una serie de recomendaciones o consejos que ayudarán a solucionar los problemas lo antes posible.
@@ -808,8 +805,8 @@
                 .card-body.py-5.px-4
                   .row.justify-content-center.p-5
                     .col-lg-6.px-5
-                      h4.titulo-cuarto {{ itemsTabs2[0].title }}
-                      p.mb-0 {{ itemsTabs2[0].description }}
+                      h4.titulo-cuarto(v-html="itemsTabs2[0].title")
+                      p.mb-0(v-html="itemsTabs2[0].description")
                     .col-lg-6.px-5
                       figure
                         img(:src='itemsTabs2[0].img', alt='Texto que describa la imagen')
@@ -818,7 +815,7 @@
                 .card-body.py-5.px-4
                   .row.justify-content-center.p-5
                     .col-lg-6.px-5
-                      h4.titulo-cuarto {{ tab.title }}
+                      h4.titulo-cuarto(v-html="tab.title")
                       p.mb-0(v-html="tab.description")
                     .col-lg-6.px-5
                       figure.px-4
@@ -830,7 +827,7 @@
             span.carousel-control-next-icon(aria-hidden='true')
             span.visually-hidden Next
 
-    p.mb-0 Una vez se tengan en cuenta estas técnicas el crear nuevas funciones o al realizar mantenimiento, dar soporte o realizar la trazabilidad de un bug, lo más probable es que los tiempos se optimicen y la respuesta respecto a las acciones a realizar sean más rápidas y certeras.
+    p.mb-0 Una vez se tengan en cuenta estas técnicas el crear nuevas funciones o al realizar mantenimiento, dar soporte o realizar la trazabilidad de un <i>bug</i>, lo más probable es que los tiempos se optimicen y la respuesta respecto a las acciones a realizar sean más rápidas y certeras.
 
 </template>
 
@@ -855,7 +852,8 @@ export default {
       {
         img: require('@/assets/curso/tema1-img36.svg'),
         title: 'Cucumber:',
-        description: 'Parte del enfoque BDD (Behavior Driven Development).',
+        description:
+          'Parte del enfoque BDD (<i>Behavior Driven Development</i>).',
       },
       {
         img: require('@/assets/curso/tema1-img37.svg'),
@@ -867,7 +865,7 @@ export default {
         img: require('@/assets/curso/tema1-img38.svg'),
         title: 'Test Studio:',
         description:
-          'Herramienta que sirve para probar funcionalidades de API y carga.',
+          'Herramienta que sirve para probar funcionalidades de <i>API</i> y carga.',
       },
       {
         img: require('@/assets/curso/tema1-img39.svg'),
@@ -891,7 +889,7 @@ export default {
         img: require('@/assets/curso/tema1-img42.svg'),
         title: 'Blazemeter:',
         description:
-          'Herramienta que se usa para medir el rendimiento de aplicaciones móviles, API o aplicaciones web, es utilizada en cualquier etapa del desarrollo con lo que apoya la entrega de software de alto rendimiento. Permite agregar una nueva configuración de prueba obteniendo nuevos datos de Google Analytics.',
+          'Herramienta que se usa para medir el rendimiento de aplicaciones móviles, <i>API</i> o aplicaciones web, es utilizada en cualquier etapa del desarrollo con lo que apoya la entrega de <i>software</i> de alto rendimiento. Permite agregar una nueva configuración de prueba obteniendo nuevos datos de Google Analytics.',
       },
       {
         img: require('@/assets/curso/tema1-img43.svg'),
@@ -925,7 +923,7 @@ export default {
         img: require('@/assets/curso/tema1-img47.svg'),
         title: 'Jira:',
         description:
-          'Popularmente conocida como una herramienta de gestión de proyectos además de apoyar el proceso de seguimiento y registro de bugs, está integrado con entornos de desarrollo para tener funcionalidades avanzadas en los ciclos de construcción, proporcionando reportes, estadísticas y alertas.',
+          'Popularmente conocida como una herramienta de gestión de proyectos además de apoyar el proceso de seguimiento y registro de <i>bugs</i>, está integrado con entornos de desarrollo para tener funcionalidades avanzadas en los ciclos de construcción, proporcionando reportes, estadísticas y alertas.',
       },
       {
         img: require('@/assets/curso/tema1-img48.svg'),
@@ -963,7 +961,7 @@ export default {
         img: require('@/assets/curso/tema1-img53.svg'),
         title: 'Espresso:',
         description:
-          'Herramienta de pruebas de software de primera categoría para pruebas en Android desarrollada por Google.',
+          'Herramienta de pruebas de <i>software</i> de primera categoría para pruebas en Android desarrollada por Google.',
       },
     ],
     itemsTabs1: [
@@ -971,31 +969,31 @@ export default {
         img: require('@/assets/curso/tema1-img58.svg'),
         title: 'Acciones de la fase de documentación de pruebas',
         description:
-          'Ejecución de pruebas de código: Un porcentaje alto de estas pruebas se podrán automatizar en herramientas como checkstyle, findbugs y pmd.',
+          '<strong>Ejecución de pruebas de código</strong>: un porcentaje alto de estas pruebas se podrán automatizar en herramientas como <i>checkstyle, findbugs</i> y pmd.',
       },
       {
         img: require('@/assets/curso/tema1-img59.svg'),
         title: '',
         description:
-          'Ejecución del plan de pruebas unitarias:  Para este tipo de pruebas se podrá implementar un componente que automatice el proceso de ejecución de pruebas unitarias como, por ejemplo, JUnit el cual se ejecutará en los eventos de entrega continua, o cuando se realice una sincronización de datos (merge)  al repositorio por medio de pipelines. ',
+          '<strong>Ejecución del plan de pruebas unitarias</strong>:  para este tipo de pruebas se podrá implementar un componente que automatice el proceso de ejecución de pruebas unitarias como, por ejemplo, JUnit el cual se ejecutará en los eventos de entrega continua, o cuando se realice una sincronización de datos (<i>merge</i>)  al repositorio por medio de <i>pipelines</i>. ',
       },
       {
         img: require('@/assets/curso/tema1-img60.svg'),
         title: '',
         description:
-          'Ejecución del plan de pruebas de integración:   Para la implementación de estas pruebas, se puede utilizar las mismas herramientas de las pruebas unitarias, pero los casos de prueba serán más largos y la verificación de resultados necesitará más de una comprobación.',
+          '<strong>Ejecución del plan de pruebas de integración</strong>:   para la implementación de estas pruebas, se puede utilizar las mismas herramientas de las pruebas unitarias, pero los casos de prueba serán más largos y la verificación de resultados necesitará más de una comprobación.',
       },
       {
         img: require('@/assets/curso/tema1-img61.svg'),
         title: '',
         description:
-          'Ejecución de pruebas funcionales:   Se deberá ejecutar cada una de estas pruebas según los casos de pruebas funcionales definidos, como resultado de estos se generará un informe en el cual se establece el resultado de cada prueba.',
+          '<strong>Ejecución de pruebas funcionales</strong>:   se deberá ejecutar cada una de estas pruebas según los casos de pruebas funcionales definidos, como resultado de estos se generará un informe en el cual se establece el resultado de cada prueba.',
       },
       {
         img: require('@/assets/curso/tema1-img62.svg'),
-        title: '',
+        title: 'Entregables de la fase de documentación de pruebas',
         description:
-          'Implementación de pruebas unitarias.<br>Implementación de pruebas de integración.<br>Informe de pruebas funcionales.<br>Además, se deberán entregar los siguientes informes:<br>Informe de revisión de la entrega software.<br>Informe de revisión del testing temprano.<br>Informe de revisión de verificación y ajustes en entornos.<br>Informe completo del resumen de las pruebas realizadas.',
+          'Implementación de pruebas unitarias.<br>Implementación de pruebas de integración.<br>Informe de pruebas funcionales.<br>Además, se deberán entregar los siguientes informes:<br>Informe de revisión de la entrega <i>software</i>.<br>Informe de revisión del <i>testing</i> temprano.<br>Informe de revisión de verificación y ajustes en entornos.<br>Informe completo del resumen de las pruebas realizadas.',
       },
     ],
     itemsTabs2: [
@@ -1010,26 +1008,26 @@ export default {
         img: require('@/assets/curso/tema1-img67.svg'),
         title: '',
         description:
-          'Con la llegada de los contenedores se facilita el despliegue y funcionamiento las aplicaciones, demanda poco tiempo y el desarrollador se encarga específicamente de mantener el software y no configurarlo; además, los contenedores ofrecen el estandarizar el despliegue sin mayor complicación en cualquier sistema operativo. ',
+          'Con la llegada de los contenedores se facilita el despliegue y funcionamiento las aplicaciones, demanda poco tiempo y el desarrollador se encarga específicamente de mantener el <i>software</i> y no configurarlo; además, los contenedores ofrecen el estandarizar el despliegue sin mayor complicación en cualquier sistema operativo. ',
       },
       {
         img: require('@/assets/curso/tema1-img68.svg'),
         title: 'El error de la sopa tecnológica',
         description:
-          'Entre menos tecnologías se usen mejor, se debe tener en cuenta utilizar solo las herramientas necesarias y adecuadas para la construcción del producto software. Una gran cantidad de dependencias pueden hacer la vida imposible de un desarrollador cuando es requerido hacer el mantenimiento de las mismas por cambio de versión o incompatibilidad por actualizaciones.',
+          'Entre menos tecnologías se usen mejor, se debe tener en cuenta utilizar solo las herramientas necesarias y adecuadas para la construcción del producto <i>software</i>. Una gran cantidad de dependencias pueden hacer la vida imposible de un desarrollador cuando es requerido hacer el mantenimiento de las mismas por cambio de versión o incompatibilidad por actualizaciones.',
       },
       {
         img: require('@/assets/curso/tema1-img69.svg'),
         title:
           'El registro debe guiar a solucionar y encontrar problemas, no invadir con detalles innecesarios',
         description:
-          'El registro es un log de datos similar a los comentarios, en el que es necesario documentar todas las acciones y decisiones críticas, además de toda la información que se utilizará en las técnicas de depuración. Este proceso no es sencillo, pero con algo de experiencia es posible replicar escenarios que en producción desencadenan errores y luego hacer el registro necesario para llegar a resolverlo. ',
+          'El registro es un <i>log</i> de datos similar a los comentarios, en el que es necesario documentar todas las acciones y decisiones críticas, además de toda la información que se utilizará en las técnicas de depuración. Este proceso no es sencillo, pero con algo de experiencia es posible replicar escenarios que en producción desencadenan errores y luego hacer el registro necesario para llegar a resolverlo. ',
       },
       {
         img: require('@/assets/curso/tema1-img70.svg'),
         title: 'Manejo de situaciones inesperadas',
         description:
-          'Trazar cuáles son los supuestos del código, ya que si una determinada variable debe contener 2, 5 o 7 asegúrese que el dato será un enum y no un int, esto será muy útil ya que en un escenario de error es posible que se busque el problema en un lugar que no es el indicado.<br>Al mapear estos casos se puede lanzar una advertencia y evitar que se desencadene un problema inesperado que posiblemente si el revisor no es el desarrollador buscará en un lugar equivocado. ',
+          'Trazar cuáles son los supuestos del código, ya que si una determinada variable debe contener 2, 5 o 7 asegúrese que el dato será un <i>enum</i> y no un <i>int</i>, esto será muy útil ya que en un escenario de error es posible que se busque el problema en un lugar que no es el indicado.<br>Al mapear estos casos se puede lanzar una advertencia y evitar que se desencadene un problema inesperado que posiblemente si el revisor no es el desarrollador buscará en un lugar equivocado. ',
       },
       {
         img: require('@/assets/curso/tema1-img71.svg'),
@@ -1040,7 +1038,7 @@ export default {
       {
         img: require('@/assets/curso/tema1-img72.svg'),
         title:
-          'Debe ser claro dónde poner ‘breakpoints (puntos de interrupción)’ en la aplicación',
+          'Debe ser claro dónde poner ‘<i>breakpoints</i> (puntos de interrupción)’ en la aplicación',
         description:
           'Si se cuenta con una GUI, debe ser claro dónde poner los puntos de quiebre, dado que en muchas ocasiones los desarrolladores presentan un grado de abstracción tal que es complicado encontrar los flujos por los cuales se ejecuta un flujo funcional.',
       },
@@ -1049,7 +1047,7 @@ export default {
         title:
           'Asegurar que todas las dependencias externas tengan la documentación explícita de sus funcionalidades, integraciones, parches o despliegues',
         description:
-          'Por lo general esto se encuentra en un archivo <strong>README</strong>, dentro del componente raíz, con la finalidad de que la documentación no se pierda y sea fácil su acceso. ',
+          'Por lo general esto se encuentra en un archivo <strong><i>README</i></strong>, dentro del componente raíz, con la finalidad de que la documentación no se pierda y sea fácil su acceso. ',
       },
     ],
   }),
