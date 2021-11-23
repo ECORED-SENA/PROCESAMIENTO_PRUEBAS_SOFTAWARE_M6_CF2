@@ -469,7 +469,7 @@
         .bloque-texto-d.color-secundario.p-4.mb-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3.text-regular Ahora bien, se expresan los siete principios que ayudan a comprender el objetivo del <i>testing</i>, independientemente de que sean pruebas manuales o automatizadas,
+            h3.text-regular Ahora bien, se expresan los siete principios que ayudan a comprender el objetivo del <em>testing</em>, independientemente de que sean pruebas manuales o automatizadas,
             i.fas.fa-quote-right
           .bloque-texto-d__autor
             .h6.mb-0 según Rodríguez (2020):
@@ -992,8 +992,39 @@ export default {
       {
         img: require('@/assets/curso/tema1-img62.svg'),
         title: 'Entregables de la fase de documentación de pruebas',
-        description:
-          'Implementación de pruebas unitarias.<br>Implementación de pruebas de integración.<br>Informe de pruebas funcionales.<br>Además, se deberán entregar los siguientes informes:<br>Informe de revisión de la entrega <i>software</i>.<br>Informe de revisión del <i>testing</i> temprano.<br>Informe de revisión de verificación y ajustes en entornos.<br>Informe completo del resumen de las pruebas realizadas.',
+        description: `<ul class="lista-ul--color mb-4">
+            <li>
+              <i class="fas fa-code"></i>
+              <p class="mb-0">Implementación de pruebas unitarias.</p>
+            </li>
+            <li>
+              <i class="fas fa-code"></i>
+              <p class="mb-0">Implementación de pruebas de integración.</p>
+            </li>
+            <li>
+              <i class="fas fa-code"></i>
+              <p class="mb-0">Informe de pruebas funcionales.</p>
+            </li>
+          </ul>
+          <p class="mb-3">Además, se deberán entregar los siguientes informes:</p>
+          <ul class="lista-ul--color mb-4">
+            <li>
+              <i class="fas fa-code"></i>
+              <p class="mb-0">Informe de revisión de la entrega <i>software</i>.</p>
+            </li>
+            <li>
+              <i class="fas fa-code"></i>
+              <p class="mb-0">Informe de revisión del <i>testing</i> temprano.</p>
+            </li>
+            <li>
+              <i class="fas fa-code"></i>
+              <p class="mb-0">Informe de revisión de verificación y ajustes en entornos.</p>
+            </li>
+            <li>
+              <i class="fas fa-code"></i>
+              <p class="mb-0">Informe completo del resumen de las pruebas realizadas.</p>
+            </li>
+          </ul>`,
       },
     ],
     itemsTabs2: [

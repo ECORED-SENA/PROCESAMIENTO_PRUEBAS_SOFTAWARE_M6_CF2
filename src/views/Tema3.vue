@@ -132,7 +132,7 @@
         h4 Planeación
         .row.justify-content-center
           .col-lg-8
-            p.mb-0 En esta fase los equipos conciben, definen, describen y caracterizan las funcionalidades de las necesidades de negocio para la construcción del producto software. Se realiza un seguimiento de los avances, registros de trabajos pendientes, seguimiento de errores y el proceso de desarrollo ágil con un marco como Scrum, y el uso de tableros Kanban.
+            p.mb-0 En esta fase los equipos conciben, definen, describen y caracterizan las funcionalidades de las necesidades de negocio para la construcción del producto <i>software</i>. Se realiza un seguimiento de los avances, registros de trabajos pendientes, seguimiento de errores y el proceso de desarrollo ágil con un marco como Scrum, y el uso de tableros Kanban.
           .col-lg-4
             figure
               img(src="@/assets/curso/tema3-img12.svg")
@@ -168,7 +168,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.mb-5.mb-lg-0
-        p.p-4.mb-0.box-with-degrade.color-acento-contenido Git es una herramienta de control de versiones diseñada por Linus Torvalds, es un software libre, la cual está pensada para mejorar la eficiencia, confiabilidad y compatibilidad entre las diferentes versiones de código fuente. Uno de los propósitos es llevar el registro de los cambios realizados, basada en <i>branches</i> (ramas).
+        p.p-4.mb-0.box-with-degrade.color-acento-contenido Git es una herramienta de control de versiones diseñada por Linus Torvalds, es un <i>software</i> libre, la cual está pensada para mejorar la eficiencia, confiabilidad y compatibilidad entre las diferentes versiones de código fuente. Uno de los propósitos es llevar el registro de los cambios realizados, basada en <i>branches</i> (ramas).
           br
           | La estrategia de <i>branching</i> – GitFlow es separar el trabajo en diferentes ramas (<i>branches</i>), lo que permite adaptarse rápidamente al proceso de trabajo colaborativo que se requiere en un equipo de desarrollo, se basa en dos ramas principales que tienen vida infinita y paralela, denominada así:
       .col-lg-5
@@ -285,7 +285,7 @@
 
     figure.mb-0
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/qPZFXPoFLoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     Separador
 

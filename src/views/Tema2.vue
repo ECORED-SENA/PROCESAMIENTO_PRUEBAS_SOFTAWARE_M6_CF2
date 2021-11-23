@@ -708,7 +708,7 @@
 
     figure.mb-5
       img(src="@/assets/curso/tema2-img31.svg")
-      figcaption Nota. Tomada de Globetesting (s.f.)
+      figcaption Nota. Tomada de <i>Globetesting</i> (s.f.)
 
     .row.justify-content-center.align-items-center.no-gutters.mb-5
       .col-lg-7.box-with-degrade.color-acento-botones.radius-25.mb-5.mb-lg-0
@@ -716,7 +716,7 @@
       .col-lg-5
         figure
           img(src="@/assets/curso/tema2-img32.svg")
-          figcaption Nota. Tomada de Globetesting (s.f.)
+          figcaption Nota. Tomada de <i>Globetesting</i> (s.f.)
 
     p.mb-5 La metodología de desarrollo de <i>software</i> en cascada utiliza diferentes tipos de pruebas de <i>software</i> que probaran tanto requerimientos funcionales como no funcionales de manera secuencial. No obstante, en metodologías ágiles específicamente en las pruebas ágiles, también se consideran varios tipos de pruebas, pero teniendo en cuenta que se utilizan <i>sprints</i> o interacciones cortas e integraciones continuas entre los equipos de desarrollo, diseño y pruebas.
       br
